@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>カウントダウンタイマー</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div id="app">
+            <h1>カウントダウンタイマー</h1>
+            <p>時間を選択してください:</p>
+            <div>
+                <input type="number" id="hours" min="0" max="23" placeholder="時間" />
+                <input type="number" id="minutes" min="0" max="59" placeholder="分" />
+            </div>
+            <div id="countdown"></div>
+            <button id="start">スタート</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
